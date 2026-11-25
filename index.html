@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Website profil pribadi">
+  <title>Profil Pribadi | Rifqi faturahman</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
+
+  <!-- Navigasi -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#beranda">Profil<span class="text-accent">Saya.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Buka navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bahasa">Bahasa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobi">Hobi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero / Foto Profil -->
+    <section id="beranda" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7 order-2 order-lg-1">
+            <p class="eyebrow mb-3">HALO, SELAMAT DATANG DI WEBSITE SAYA</p>
+            <h1 class="display-4 fw-bold mb-3">Saya <span class="text-accent">Rifqi Faturahman</span></h1>
+            <h2 class="h4 text-light-emphasis mb-4">Mahasiswa | Calon Profesional di Bidang Teknologi</h2>
+            <p class="lead hero-copy mb-4">
+              Saya adalah kepribadian orang yang gemar belajar, mencoba hal baru, dan mengembangkan kemampuan
+              di bidang teknologi. Website ini merupakan tempat untuk mengenal saya lebih dekat.
+            </p>
+            <a href="#tentang" class="btn btn-accent btn-lg me-2">Kenali Saya</a>
+            <a href="#keahlian" class="btn btn-outline-light btn-lg">Keahlian Saya</a>
+          </div>
+          <div class="col-lg-5 text-center order-1 order-lg-2">
+            <div class="profile-frame mx-auto">
+              <!-- Ganti assets/foto-profil.jpg dengan foto diri Anda -->
+              <img src="assets/foto-profil.jpeg" alt="Foto profil Rifqi faturahman" class="profile-photo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="tentang" class="section-padding">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <p class="eyebrow">PERKENALAN</p>
+          <h2 class="section-title">Tentang Saya</h2>
+          <p class="section-subtitle">Sedikit cerita tentang diri dan perjalanan pendidikan saya.</p>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="content-card h-100">
+              <h3 class="h4 fw-bold mb-3">Biografi Singkat</h3>
+              <p>
+                Perkenalkan, nama saya <strong>Rifqi Faturahman</strong>. Saya adalah mahasiswa dari
+                <strong>Jurusan Teknik Informatika</strong> di
+                <strong>STMIK Antar Bangsa Kampus Ciledug</strong>. Saya memiliki ketertarikan pada dunia teknologi,
+                khususnya pengembangan web dan pemanfaatan teknologi digital.
+              </p>
+              <p class="mb-0">
+                Saya senang mempelajari hal-hal baru, bekerja sama dalam tim, serta berusaha
+                meningkatkan kemampuan melalui latihan dan pengalaman. Ke depannya, saya ingin
+                terus berkembang dan dapat menghasilkan karya yang bermanfaat.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="content-card h-100">
+              <h3 class="h4 fw-bold mb-4">Pendidikan</h3>
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <p class="small text-accent fw-semibold mb-1">PENDIDIKAN SAAT INI</p>
+                <h4 class="h6 fw-bold mb-1">STMIK Antar Bangsa</h4>
+                <p class="text-secondary mb-0">Teknik Informatika · 2025-2026</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <p class="small text-accent fw-semibold mb-1">PENDIDIKAN SEBELUMNYA</p>
+                <h4 class="h6 fw-bold mb-1">SMK Muda 2 Tangerang</h4>
+                <p class="text-secondary mb-0">Teknik Jaringan Komputer · 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keahlian -->
+    <section id="keahlian" class="section-padding section-soft">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <p class="eyebrow">KEMAMPUAN</p>
+          <h2 class="section-title">Keahlian Saya</h2>
+          <p class="section-subtitle">Kemampuan teknis dan nonteknis yang sedang saya kembangkan.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="content-card h-100">
+              <h3 class="h5 fw-bold mb-4"><i class="bi bi-code-slash text-accent me-2"></i>Keahlian Teknis</h3>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between mb-2"><span>HTML</span><span>60%</span></div>
+                <div class="progress"><div class="progress-bar" style="width:60%" role="progressbar" aria-label="HTML 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between mb-2"><span>CSS</span><span>40%</span></div>
+                <div class="progress"><div class="progress-bar" style="width:40%" role="progressbar" aria-label="CSS 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between mb-2"><span>Bootstrap</span><span>55%</span></div>
+                <div class="progress"><div class="progress-bar" style="width:55%" role="progressbar" aria-label="Bootstrap 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div></div>
+              </div>
+              <div class="skill-item mb-0">
+                <div class="d-flex justify-content-between mb-2"><span>Microsoft Office</span><span>50%</span></div>
+                <div class="progress"><div class="progress-bar" style="width:50%" role="progressbar" aria-label="Microsoft Office 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="content-card h-100">
+              <h3 class="h5 fw-bold mb-4"><i class="bi bi-stars text-accent me-2"></i>Keahlian Nonteknis</h3>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-badge">Komunikasi</span>
+                <span class="skill-badge">Kerja Sama Tim</span>
+                <span class="skill-badge">Disiplin</span>
+                <span class="skill-badge">Pemecahan Masalah</span>
+                <span class="skill-badge">Adaptasi</span>
+                <span class="skill-badge">Kemauan Belajar</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bahasa -->
+    <section id="bahasa" class="section-padding">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <p class="eyebrow">KOMUNIKASI</p>
+          <h2 class="section-title">Kemampuan Bahasa</h2>
+          <p class="section-subtitle">Bahasa yang saya gunakan dalam kegiatan sehari-hari dan pembelajaran.</p>
+        </div>
+        <div class="row g-3 justify-content-center">
+          <div class="col-md-5">
+            <div class="language-card">
+              <div class="language-icon"><i class="bi bi-chat-dots"></i></div>
+              <div><h3 class="h6 fw-bold mb-1">Bahasa Indonesia</h3><p class="text-secondary small mb-0">Mahir · Bahasa sehari-hari</p></div>
+              <span class="badge rounded-pill text-bg-secondary ms-auto">Cukup Baik</span>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="language-card">
+              <div class="language-icon"><i class="bi bi-globe"></i></div>
+              <div><h3 class="h6 fw-bold mb-1">Bahasa Inggris</h3><p class="text-secondary small mb-0">Dasar · Dalam pengembangan</p></div>
+              <span class="badge rounded-pill text-bg-primary ms-auto">Dasar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobi -->
+    <section id="hobi" class="section-padding section-soft">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <p class="eyebrow">AKTIVITAS FAVORIT</p>
+          <h2 class="section-title">Hobi & Minat</h2>
+          <p class="section-subtitle">Kegiatan yang saya sukai untuk mengisi waktu dan menambah wawasan.</p>
+        </div>
+        <div class="row g-5">
+          <div class="col-6 col-lg-3">
+            <div class="hobby-card"><i class="bi bi-laptop"></i><h3 class="h6 fw-bold mt-3 mb-1">Belajar Teknologi</h3><p class="small text-secondary mb-0">Mengenal hal baru di dunia digital.</p></div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="hobby-card"><i class="bi bi-book"></i><h3 class="h6 fw-bold mt-3 mb-1">Membaca</h3><p class="small text-secondary mb-0">Menambah pengetahuan dan wawasan.</p></div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="hobby-card"><i class="bi bi-music-note-beamed"></i><h3 class="h6 fw-bold mt-3 mb-1">Mendengarkan Musik</h3><p class="small text-secondary mb-0">Menikmati musik di waktu luang.</p></div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="hobby-card"><i class="bi bi-camera"></i><h3 class="h6 fw-bold mt-3 mb-1">Fotografi</h3><p class="small text-secondary mb-0">Mengabadikan momen menarik.</p></div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="hobby-card"><i class="bi bi-files"></i><h3 class="h6 fw-bold mt-3 mb-1">Gamers</h3><p class="small text-secondary mb-0">Mengisi pecahan teka teki dan mengedit file cepat.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <a class="footer-brand" href="#beranda">Kembali</a>
+      <p class="text-light-emphasis small mt-2 mb-3">Terima kasih telah mengunjungi website profil saya.</p>
+      <div class="social-links mb-3">
+        <a href="https://github.com/USERNAME" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/USERNAME" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="rifqyfaturahman021@gmail.com" aria-label="Gmail"><i class="bi bi-envelope"></i></a>
+      </div>
+      <p class="small text-light-emphasis mb-0">&copy; <span id="tahun"></span> Rifqi faturahman. Dibuat dengan HTML, CSS, dan Bootstrap.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("tahun").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
